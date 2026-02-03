@@ -13,10 +13,10 @@ else:
 print("What is your bill")
 tip = (input("How was the service?"))
 if tip == "great":
-    print[number*1.25]
+    print[number*float(1.25)]
 elif tip == "good":
-    print[number*1.2]
+    print[number*float(1.2)]
 elif tip == "okay":
-    print[number*1.15]
+    print[number*float(1.15)]
 elif tip == "bad":
     print[number]
