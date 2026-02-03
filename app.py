@@ -13,10 +13,17 @@ else:
 print("What is your bill")
 tip = (input("How was the service?"))
 if tip == "great":
-    print[number*float(1.25)]
+    [print(number*float(1.25))]
 elif tip == "good":
-    print[number*float(1.2)]
+    [print(number*float(1.2))]
 elif tip == "okay":
-    print[number*float(1.15)]
+    [print(number*float(1.15))]
 elif tip == "bad":
-    print[number]
+    [print(number)]
+
+
+def discount(age, isResident, isMember):
+    if discount(age >= 65 or age < 12) and discount(isResident = True or isMember == True):
+        print("The person is valid for discount")
+    else:
+        print("The person is not valid for discount")
