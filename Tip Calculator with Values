@@ -10,7 +10,7 @@ if number%2 == 0:
 else:
     print("odd")
 
-print("What is your bill")
+print("What is your bill?")
 tip = (input("How was the service?"))
 if tip == "great":
     [print(number*float(1.25))]
@@ -18,5 +18,7 @@ elif tip == "good":
     [print(number*float(1.2))]
 elif tip == "okay":
     [print(number*float(1.15))]
+    print("What can we do better?")
 elif tip == "bad":
     [print(number)]
+    print("Lowkey, my job doesn't pay well, why no tip?")
