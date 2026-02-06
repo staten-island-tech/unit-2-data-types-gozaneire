@@ -1,5 +1,5 @@
 def discount(age,isResident,isMember):
-    age = (input("What is your age?"))
+    age == (input("What is your age?"))
     isResident = (input("Are you a resident"))
     if isResident == "yes":
         isResident == True
