@@ -10,8 +10,8 @@ def discount(age,isResident,isMember):
         isMember == True
     else:
         isMember == False
-    if discount(age >= 65 or age < 12) and discount(isResident == True or isMember == True):
-        print("The person is valid for discount")
-        discount == True
-    else:
-        print("The person is not valid for discount")
+if discount(age >= 65 or age < 12) and discount(isResident == True or isMember == True):
+    print("The person is valid for discount")
+    discount == True
+else:
+    print("The person is not valid for discount")

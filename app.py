@@ -1,17 +1,10 @@
-def discount(age,isResident,isMember):
-    age = (input("What is your age?"))
-    isResident = (input("Are you a resident"))
-    if isResident == "yes":
-        isResident == True
-    else:
-        isResident == False
-    isMember = (input("Are you a member?"))
-    if isMember == "yes":
-        isMember == True
-    else:
-        isMember == False
-    if discount(age >= 65 or age < 12) and discount(isResident == True or isMember == True):
-        print("The person is valid for discount")
-        discount == True
-    else:
-        print("The person is not valid for discount")
+value1 = int(input("Insert number"))
+for division in range:
+     division + 1
+     print(division)
+
+factors = value1//division
+if factors == True:
+     print[factors]
+else:
+    print("No factors")
