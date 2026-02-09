@@ -1,18 +1,21 @@
-age = (input("What is your age?"))
-isResident = (input("Are you a resident"))
-isMember = (input("Are you a member?"))
+age = int(input("What is your age?"))
+isResident = input("Are you a resident")
+if isResident == "yes":
+    isResident = True
+else: 
+    isResident = False
 
-def discount(age,isResident,isMember):
-    if isResident == "yes":
-        isResident == True
-    else:
-        isResident == False
-    if isMember == "yes":
-        isMember == True
-    else:
-        isMember == False
-    if discount(age >= 65 or age < 12) and discount(isResident == True or isMember == True):
-        print("The person is valid for discount")
-        discount == True
-    else:
-        print("The person is not valid for discount")
+isMember = input("Are you a member?")
+if isMember == "yes":
+    isMember = True
+else:
+    isMember = False
+
+discount = print("The person is valid for discount")
+
+if ((age >= 65) or (age < 12)) and ((isResident == True) or (isMember == True)):
+    discount
+    quit()
+else:
+    print("The person is not valid for discount")
+    quit()
