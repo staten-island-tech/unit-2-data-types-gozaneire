@@ -11,10 +11,8 @@ if isMember == "yes":
 else:
     isMember = False
 
-discount = print("The person is valid for discount")
-
-if ((age >= 65) or (age < 12)) and ((isResident == True) or (isMember == True)):
-    discount
+if ((age >= 65) or (age < 12)) and (isResident == True or isMember == True):
+    print("The person is valid for discount")
     quit()
 else:
     print("The person is not valid for discount")
